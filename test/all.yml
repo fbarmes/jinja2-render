@@ -1,0 +1,10 @@
+---
+var_commons: CHANGEME
+
+var_one: One
+var_two: Two
+var_three: "{{var_one}}_{{var_two}}"
+var_four: "four_{{var_three}}"
+var_five: "five_{{var_four}}"
+
+var_composed: "inall_{{var_commons}}"
